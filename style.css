@@ -1,0 +1,69 @@
+.banner {
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/19/19/26/amsterdam-1150319_1280.jpg"); /* Ganti 'image/gambar13.jpg' dengan path gambar Anda */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Pilihan: warna teks */
+  text-align: center; /* Pilihan: perataan teks */
+  height: 100vh; /* Membuat tinggi banner sama dengan tinggi layar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.banner .container {
+  width: 100%;
+}
+
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+.p {
+  text-align: justify;
+}

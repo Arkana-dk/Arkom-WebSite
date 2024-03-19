@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSite Arsitektur dan Organisasi Komputer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigasi -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+      >
+      <div class="container">
+        <a class="navbar-brand" href="#">SilverMoon.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Materi">Materi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4 class="display-6"><strong>Welcome To This Website</strong></h4>
+        <h5 class="display-3"><strong>SilverMoon</strong></h5>
+        <a href="#Home">
+          <button type="button" class="btn btn-danger btn-lg">Masuk</button>
+        </a>
+      </div>
+    </div>
+    
+
+    <!-- Home -->
+    <div class="container-fluid Home pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-5" id="Home"><hr><strong>Home</strong><hr></h2>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+            <h3 class="mt-3">Perkembangan Arsitektur Komputer</h3>
+            <div class="p">
+              <p>
+                <br>Dalam sejarah panjang arsitektur komputer, kita melihat evolusi yang menakjubkan dari mesin hitung awal hingga komputer modern yang mengubah cara kita berinteraksi dengan teknologi. Evolusi ini tidak hanya mencakup perangkat keras seperti MIPs, ARM, dan x86, tetapi juga memainkan peran penting dalam revolusi teknologi informasi yang kita saksikan saat ini.            
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-regular fa-database fa-5x"></i></span>
+            <h3 class="mt-3">Sistem Operasi Open Source</h3>
+            <div class="p"> 
+              <p>
+                <br>Linux, dengan filosofi dan masyarakat pengembangnya yang unik, telah menjadi pusat perhatian dalam dunia open source. Berbagai distro Linux seperti CentOS, Arch Linux, dan Mint menawarkan pilihan yang beragam, masing-masing dengan keunggulan dan kegunaannya sendiri. Kontribusi yang besar dari komunitas pengembang telah menjadi pendorong utama dalam pengembangan sistem operasi open source ini.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-regular fa-tablet fa-5x"></i></span>
+            <h3 class="mt-3">Android</h3>
+            <div class="p"> 
+              <p>
+                <br><br>Android, dari awal pendiriannya hingga akuisisi oleh Google, telah mengalami perjalanan yang luar biasa. Karakteristik setiap versi, mulai dari Cupcake hingga Android 12, memberikan wawasan tentang bagaimana platform ini terus berkembang. Keutamaan Android sebagai platform mobile universal mencakup fleksibilitas, kustomisasi, dan keamanan yang telah menjadikannya salah satu sistem operasi paling populer di dunia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Materi -->
+    <div class="container-fluid pt-5 pb-5 bg-light">    
+        <h2 align="center" class="display-5" id="Materi"><hr><strong>Materi</strong><hr></h2>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-6">
+            <div class="card crop-img">
+              <img
+                src="Image/gambar12.jpg"
+                class="card-img-top"
+                width="300"
+                height="300"/>
+              <div class="card-body">
+                <h5 class="card-title"><strong><u>Generasi Arsitektur Komputer</u></strong></h5>
+                 <p class="card-text">
+                 <div class="p"> 
+                 <ol> Pendahuluan: Sebelum era komputer modern, manusia telah menggunakan berbagai perangkat mekanis dan elektromekanis untuk melakukan perhitungan, seperti abakus, mesin hitung Pascal, dan mesin analitik Charles Babbage, yang merupakan pendahulu langsung komputer modern.
+                        <li><strong>Generasi Pertama (1940-an):</strong></li>                   
+                      <ul>
+                        <li>	Komputer pertama, seperti ENIAC (Electronic Numerical Integrator and Computer) dan Colossus, muncul pada awal tahun 1940-an. Mereka menggunakan tabung hampa udara sebagai elemen utama.</li>
+                        <li>	Pada periode ini, konsep arsitektur Von Neumann diusulkan, yang mengintegrasikan unit pemrosesan, unit kontrol, memori, dan input/output (I/O) dalam satu sistem yang terintegrasi.</li>
+                      </ul>
+                        <li><strong>Generasi Kedua (1950-an - 1960-an):</strong> </li>
+                      <ul> 
+                        <li>Penemuan transistor pada tahun 1947 membuka jalan bagi komputer generasi kedua, yang menggunakan transistor untuk menggantikan tabung hampa udara. Contoh utamanya adalah IBM 360.</li>	
+                        <li>Bahasa pemrograman tingkat tinggi seperti Fortran dan COBOL mulai muncul, mempermudah pengembangan perangkat lunak.</li>
+                      </ul>                    
+                        <li><strong>Generasi Ketiga (1960-an - 1970-an):</strong></li>
+                      <ul>
+                        <li>Kemajuan dalam teknologi sirkuit terpadu (IC) memungkinkan integrasi lebih banyak fungsi dalam satu chip, menghasilkan komputer generasi ketiga.</li>	
+                        <li>Komputer minikomputer, seperti PDP-11 dari DEC, menjadi populer di kalangan universitas dan bisnis kecil karena harganya yang lebih terjangkau.</li>	
+                      </ul>                     
+                        <li><strong>Generasi Keempat (1970-an - 1980-an):</strong> </li>
+                      <ul>
+                        <li>Tahun 1971, penemuan mikroprosesor oleh Intel mengubah industri komputer, memungkinkan integrasi semua fungsi komputer ke dalam satu chip kecil.</li> 	
+                        <li>Munculnya komputer pribadi (PC) seperti Apple II (1977) dan IBM PC (1981) membawa komputer ke rumah dan kantor.</li> 
+                    	</ul>                    
+                        <li><strong>Generasi Kelima (1990-an - Sekarang):</strong> </li>
+                      <ul>
+                        <li>Era Internet dimulai pada awal 1990-an, yarng mempengaruhi arsitektur komputer untuk mendukung konektivitas global dan komputasi terdistribusi.</li>
+                      	<li>Komputer pribadi semakin populer dengan munculnya sistem operasi seperti Microsoft Windows dan distribusi Linux. Munculnya Windows 95 menjadi titik balik dalam antarmuka pengguna dan pemakaian komputer.</li>
+                      	<li>Perkembangan arsitektur paralel dan komputasi multi-core dimulai untuk meningkatkan kinerja komputer.</li>
+                      </ul>
+                        <li><strong>Era Modern (Sekarang):</strong> </li>
+                      <ul>
+                        <li>Komputasi awan dan Internet of Things (IoT) telah mempengaruhi desain arsitektur komputer untuk mendukung ketersediaan data yang lebih besar dan konektivitas yang lebih baik.</li>	
+                        <li>Teknologi kecerdasan buatan (AI) dan komputasi kuantum telah mengubah paradigma dalam arsitektur komputer, memungkinkan komputer untuk melakukan tugas-tugas yang sebelumnya dianggap tidak mungkin.</li>	
+                        <li>Perkembangan teknologi semikonduktor dan inovasi dalam desain komputer terus mendorong batasan kinerja komputer, memperluas cakupan aplikasi dan kemungkinan di masa depan.
+                            Sejarah arsitektur komputer mencerminkan perjalanan panjang dalam evolusi teknologi, dari perangkat mekanis sederhana hingga sistem terhubung secara global yang mampu melakukan perhitungan kompleks dalam hitungan detik. Dengan terus berkembangnya teknologi, arsitektur komputer akan terus berubah untuk memenuhi tuntutan masa depan dalam komputasi dan teknologi informasi.</li>	
+                      </ul>                     
+                   </ol>
+                 </p>
+               </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card crop-img">
+              <img
+                src="Image/gambar11.jpg"
+                class="card-img-top"
+                width="300"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong><u>Sejarah Arsitektur Komputer</u></strong></h5>
+                <p class="card-text">
+                  <div class="p">
+                    Sejarah arsitektur komputer merujuk pada perkembangan dan evolusi struktur dasar sistem komputer dari masa ke masa. 
+                     <ol><br>
+                      <li><em>Zaman Pra-Modern (Abad ke-19 dan Awal Abad ke-20):</em> Pada awalnya, komputer adalah manusia yang melakukan perhitungan secara manual. Namun, pada abad ke-19 dan awal abad ke-20, perkembangan mesin-mesin mekanis seperti mesin hitung Charles Babbage dan mesin kode-kursi Herman Hollerith menjadi landasan untuk komputer modern.</p></li>	
+                      <li><em>Mesin Von Neumann (1940-an):</em> Arsitektur komputer modern pertama kali didefinisikan oleh John von Neumann pada tahun 1945 dalam konsep mesin komputasi elektronik yang terdiri dari unit pemrosesan, unit kontrol, unit memori, dan unit input/output. Ini menjadi landasan untuk pembangunan komputer pertama, termasuk ENIAC dan EDVAC.</p></li>	
+                      <li><em>Era Mainframe (1950-an - 1960-an):</em> omputer mainframe menjadi dominan dalam era ini. Mereka besar, mahal, dan digunakan terutama oleh perusahaan dan lembaga pemerintah untuk pemrosesan data besar dan aplikasi ilmiah.</p></li>	
+                      <li><em>Masa Transisi ke Mikrokomputer (1970-an):</em> Perkembangan mikroprosesor membuka jalan bagi komputer personal (PC) yang lebih kecil, lebih terjangkau, dan lebih mudah diakses oleh masyarakat umum. Mikrokomputer seperti Altair 8800 dan Apple II memulai revolusi komputer pribadi.</p></li>	
+                      <li><em>Era Mikroprosesor (1980-an - sekarang):</em> Komputer pribadi semakin populer dengan munculnya IBM PC pada tahun 1981. Perkembangan mikroprosesor yang lebih cepat dan lebih kuat memungkinkan peningkatan kinerja dan kemampuan komputer dalam skala yang besar.</p></li>	
+                      <li><em>Internet dan Komputasi Terdistribusi (1990-an - sekarang):</em> Perkembangan Internet membawa perubahan mendasar dalam cara kita berinteraksi dengan komputer dan cara komputer berinteraksi satu sama lain. Komputasi terdistribusi dan teknologi awan (cloud computing) menjadi tren utama dalam penyediaan sumber daya komputasi.</p></li>	
+                      <li><em>Perkembangan Arsitektur Paralel dan Multicore (2000-an - sekarang):</em>  Untuk mengatasi batasan kinerja yang dihadapi oleh mikroprosesor tunggal, arsitektur komputer beralih ke sistem paralel dan multicore. Ini memungkinkan untuk eksekusi tugas secara paralel dan meningkatkan kinerja secara signifikan.</p></li>	
+                      <li><em>Internet of Things (IoT) dan Komputasi Edge (2010-an - sekarang):</em>Pertumbuhan Internet of Things (IoT) telah membawa tentang kebutuhan akan komputasi yang lebih terdistribusi dan terlokalisasi. Komputasi edge, di mana pemrosesan data dilakukan lebih dekat dengan sumber data, menjadi semakin penting.</p></li>	                    
+                     Sejarah arsitektur komputer mencerminkan perkembangan teknologi komputer dari konsep dasar mesin hitung hingga komputer canggih yang kita gunakan hari ini. Perubahan dalam arsitektur komputer sering kali dipicu oleh kemajuan dalam teknologi semikonduktor, kebutuhan aplikasi yang berkembang, dan kemajuan dalam pemahaman teoritis tentang komputasi. 
+                    </ol>                                          
+                </p>
+               </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card crop-img">
+              <img
+                src="Image/gambar8.png"
+                class="card-img-top"
+                width="300"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong><u>Jenis Arsitektur Komputer</u></strong>.</h5>
+                <p align="justify" class="card-text">
+                  <div class="p">
+                  <ol>Arsitektur komputer adalah struktur dasar dari sebuah sistem komputer, yang mencakup elemen-elemen seperti arsitektur instruksi, organisasi memori, sistem interkoneksi, dan lain-lain. Jenis-jenis arsitektur komputer mencakup:
+                     <li><em>Von Neumann:</em> Arsitektur ini merupakan model dasar yang banyak digunakan dalam pembangunan komputer modern. Dibuat berdasarkan gagasan John von Neumann pada tahun 1945, arsitektur ini memiliki unit pemrosesan, unit kontrol, unit memori, dan unit input/output terpisah. Instruksi dan data disimpan dalam memori yang sama dan diakses melalui alamat.</li>	
+                     <li><em>Harvard:</em> Arsitektur Harvard memisahkan memori instruksi dan data. Dalam sistem ini, terdapat dua jalur memori terpisah, satu untuk instruksi dan satu lagi untuk data. Ini memungkinkan komputer untuk membaca instruksi dan data secara bersamaan, yang dapat meningkatkan kinerja.</li>	
+                     <li><em>RISC (Reduced Instruction Set Computer):</em> Arsitektur RISC didesain dengan sedikit instruksi yang lebih sederhana dan lebih cepat dieksekusi. Setiap instruksi biasanya dieksekusi dalam satu siklus clock. Ini memungkinkan kinerja yang lebih tinggi dalam beberapa kasus, meskipun memerlukan kode yang lebih panjang.</li>	
+                     <li><em>CISC (Complex Instruction Set Computer):</em> Arsitektur CISC memiliki instruksi yang lebih kompleks yang dapat melakukan lebih banyak tugas dalam satu instruksi. Ini sering kali memerlukan waktu eksekusi yang lebih lama, tetapi kode yang lebih pendek. Contoh arsitektur CISC termasuk x86, yang banyak digunakan dalam prosesor Intel dan AMD.</li>	
+                     <li><em>Pipelined:</em> Pipelining adalah teknik yang digunakan dalam banyak arsitektur modern di mana beberapa instruksi dieksekusi secara bersamaan dalam berbagai tahap yang berurutan. Ini meningkatkan throughput dan kinerja keseluruhan komputer.</li>	
+                     <li><em>Superscalar:</em> Arsitektur superscalar memungkinkan lebih dari satu instruksi untuk dieksekusi dalam satu siklus clock. Ini dicapai dengan menggunakan beberapa unit eksekusi yang bekerja secara paralel.</li>	
+                     <li><em>VLIW (Very Long Instruction Word):</em> Arsitektur VLIW memiliki instruksi yang sangat panjang, di mana beberapa operasi dieksekusi bersamaan dalam satu siklus clock. Compiler bertanggung jawab untuk mengoptimalkan instruksi-instruksi ini.</li>	
+                     <li><em>SIMD (Single Instruction, Multiple Data):</em> Arsitektur SIMD memungkinkan satu instruksi untuk mengoperasikan beberapa data secara bersamaan. Ini sangat efisien untuk aplikasi yang memerlukan operasi seragam pada kumpulan data yang besar, seperti grafika komputer atau pemrosesan sinyal.</li>	
+                     <li><em>Multicore dan Manycore:</em> Dalam arsitektur ini, CPU memiliki lebih dari satu inti pemrosesan. Pada arsitektur multicore, terdapat beberapa inti pemrosesan di dalam satu chip, sedangkan manycore memiliki jumlah inti yang lebih besar. Ini memungkinkan untuk eksekusi tugas secara paralel dan meningkatkan kinerja sistem secara keseluruhan.</li>
+                     <li><em>Memori Bersama (Shared Memory) dan Memori Terdistribusi (Distributed Memory):</em> Arsitektur dengan memori bersama memungkinkan beberapa pemrosesor untuk mengakses memori yang sama secara langsung, sementara arsitektur dengan memori terdistribusi memiliki memori lokal di setiap pemrosesor dan berkomunikasi melalui jaringan.</li>	
+                     <li><em>Client-Server:</em> Arsitektur client-server terdiri dari dua jenis entitas: klien yang meminta layanan atau sumber daya, dan server yang menyediakan layanan atau sumber daya tersebut. Klien dan server dapat berada pada mesin yang berbeda dan berkomunikasi melalui jaringan.</li>	
+                     <li><em>Cluster dan Grid:</em> Arsitektur cluster dan grid melibatkan penggabungan beberapa komputer fisik menjadi satu entitas yang lebih besar. Cluster biasanya terdiri dari beberapa komputer yang terhubung dalam jaringan lokal, sedangkan grid melibatkan komputer yang tersebar geografis yang terhubung melalui jaringan.</li>	
+                     <li><em>Sistem Terdistribusi:</em> Arsitektur sistem terdistribusi terdiri dari sejumlah besar komputer yang terhubung dalam jaringan dan bekerja bersama untuk menyelesaikan tugas. Setiap komputer dalam sistem tersebut memiliki otonomi dan dapat berkomunikasi dengan yang lain.</li> 
+                     <li><em>Sistem Paralel:</em> Arsitektur sistem paralel memungkinkan beberapa prosesor untuk bekerja secara bersamaan untuk menyelesaikan tugas. Ini dapat mencakup sistem multiprosesor simetris (SMP), di mana semua prosesor memiliki akses yang sama ke memori dan sumber daya sistem, serta arsitektur NUMA (Non-Uniform Memory Access), di mana akses ke memori dapat bervariasi tergantung pada lokasi prosesor.
+                         Pemilihan arsitektur komputer yang tepat tergantung pada sejumlah faktor, termasuk kebutuhan aplikasi, ketersediaan sumber daya, dan keterbatasan desain. Dengan memahami berbagai jenis arsitektur komputer, para insinyur dapat merancang sistem yang efisien dan sesuai dengan kebutuhan spesifik.</li>	
+                   </ol>  
+                 </p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card crop-img">
+              <img
+                src="Image/gambar4.jpg"
+                class="card-img-top"
+                width="300"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong><u>Android: Karakteristik hingga Keutamaannya</u></strong></h5>
+                <p class="card-text">
+                  <div class="p">
+                          Android adalah sistem operasi mobile yang dikembangkan oleh Google berdasarkan kernel Linux. Ini dirancang untuk perangkat mobile seperti smartphone dan tablet, serta perangkat lainnya termasuk smartwatch, TV, dan mobil. Berikut adalah karakteristik dan keutamaan Android:
+                  <ol><br><strong>Karakteristik Android:</strong>
+                    <li><em>Open Source: </em>Android bersifat open source, yang berarti kode sumbernya dapat diakses, dimodifikasi, dan didistribusikan secara bebas oleh pengembang.</li> 	
+                    <li><em>Berbasis Linux:</em> Android menggunakan kernel Linux sebagai dasar sistem operasinya, memberikan stabilitas dan keamanan yang kuat.</li> 	
+                    <li><em>Diversitas Perangkat:</em> Android mendukung berbagai macam perangkat keras dari berbagai produsen, sehingga pengguna memiliki banyak pilihan dalam hal fitur, harga, dan merek.</li> 	
+                    <li><em>Lingkungan Pengembangan Terbuka:</em> Google menyediakan Android SDK (Software Development Kit) secara gratis, memungkinkan pengembang untuk membuat aplikasi dengan mudah menggunakan bahasa pemrograman Java.</li> 	
+                    <li><em>Lingkungan Aplikasi yang Kaya:</em> Android memiliki Google Play Store yang menyediakan akses ke ribuan aplikasi, mulai dari game hingga produktivitas, yang dapat diunduh dan diinstal oleh pengguna.</li> 	
+                    <li><em>Customizable User Interface:</em> Android memungkinkan pengguna untuk menyesuaikan antarmuka pengguna mereka dengan menggunakan berbagai launcher, widget, dan tema.</li> 	
+                    <li><em>Fitur Konektivitas yang Kuat:</em> Android mendukung berbagai teknologi konektivitas seperti WiFi, Bluetooth, NFC, dan 4G LTE, serta menyediakan API untuk pengembangan aplikasi yang menggunakan fitur-fitur tersebut.</li> 	
+                  </ol>
+                  <ol> <strong>Keutamaan Android:</strong>
+                    <li><em>Kemudahan Pengembangan Aplikasi:</em> Dengan SDK Android yang kuat dan dokumentasi yang baik, pengembang dapat dengan mudah membuat aplikasi untuk platform ini.</li> 	
+                    <li><em>Populasi Pengguna yang Besar:</em> Android memiliki pangsa pasar yang besar di seluruh dunia, sehingga aplikasi yang dikembangkan untuk platform ini memiliki potensi pasar yang besar.</li> 	
+                    <li><em>Integrasi dengan Layanan Google:</em> Android terintegrasi dengan berbagai layanan Google seperti Gmail, Google Maps, dan Google Drive, meningkatkan produktivitas dan kenyamanan pengguna.</li> 	
+                    <li><em>Penyesuaian dan Kontrol yang Tinggi:</em> Pengguna Android memiliki kontrol yang tinggi atas perangkat mereka, termasuk kemampuan untuk menyesuaikan antarmuka pengguna, menginstal ROM kustom, dan mengakses sistem file.</li> 	
+                    <li><em>Pengembangan Berkelanjutan:</em> Android terus menerima pembaruan dan pengembangan baru dari Google, termasuk fitur-fitur inovatif dan perbaikan keamanan.</li> 	
+                    <li><em>Ekosistem Pengembangan yang Kaya:</em> Android memiliki komunitas pengembang yang besar dan aktif, serta dukungan dari berbagai perusahaan teknologi yang memberikan dukungan dan alat bagi pengembang untuk membuat aplikasi yang inovatif dan berkualitas tinggi.</li> 	
+                  </ol>
+                  <ol>Dengan karakteristik dan keutamaannya, Android telah menjadi salah satu sistem operasi mobile yang paling populer dan berpengaruh di dunia saat ini.
+                    Beberapa Versi Android:
+                    <li><em>Android Cupcake (1.5):</em> Versi pertama yang diberi nama, diluncurkan pada tahun 2009 dengan fitur-fitur seperti widget layar beranda dan pencarian teks suara.</li>	
+                    <li><em>Android KitKat (4.4):</em> Fokus pada pengoptimalan kinerja dan konsumsi daya, serta pengenalan fitur-fitur seperti "OK Google" dan "Immersive Mode".</li>	
+                    <li><em>Android Marshmallow (6.0):</em> Memperkenalkan fitur-fitur seperti Now on Tap, Doze Mode untuk menghemat daya, dan kontrol perizinan aplikasi yang lebih baik.</li>	
+                    <li><em>Android Pie (9.0):</em> Menyempurnakan tata letak antarmuka pengguna dengan navigasi gerak, Adaptive Battery untuk meningkatkan masa pakai baterai, dan Digital Wellbeing untuk memantau penggunaan perangkat.</li>	
+                    <li><em>Android 10:</em> Fokus pada privasi pengguna dengan pengontrolan perizinan yang lebih ketat, Dark Mode sistem, dan proyek Mainline untuk pembaruan sistem modular.</li>	
+                  </ol>                 
+                </p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card crop-img">
+              <img
+                src="Image/gambar7.jpg"
+                class="card-img-top"
+                width="300"
+                height="300"
+                />
+              <div class="card-body">
+                <h5 class="card-title"><strong><u>Linux Karakteristik hingga Keutamaannya.</u></strong></h5>
+                <p class="card-text">
+                <div class="p"> 
+                   <p>
+                          Linux adalah kernel sistem operasi open source yang dibuat oleh Linus Torvalds pada tahun 1991. Dengan kombinasi kernel Linux dan berbagai perangkat lunak lainnya, seperti utilitas sistem dan lingkungan desktop, digunakan dalam berbagai distribusi Linux. Berikut adalah karakteristik dan keutamaan Linux:
+                  <br><br><strong>Karakteristik Linux: </strong>  
+                    <ol>       
+                      <li><em>Open Source:</em> Linux didistribusikan di bawah lisensi open source, yang berarti kode sumbernya dapat diakses, dimodifikasi, dan didistribusikan secara bebas oleh pengembang di seluruh dunia.</li>	
+                      <li><em>Stabilitas:</em> Kernel Linux dikenal karena stabilitasnya yang tinggi. Pembaruan reguler dan dukungan dari komunitas open source terus meningkatkan stabilitasnya.</li>	
+                      <li><em>ustomisasi:</em>K Pengguna Linux memiliki kebebasan untuk menyesuaikan sistem mereka sesuai dengan kebutuhan mereka. Ini termasuk pilihan lingkungan desktop, manajer jendela, tema, dan banyak lagi.</li>	
+                      <li><em>Kinerja yang Baik:</em> Kernel Linux dirancang untuk kinerja yang efisien, sehingga Linux sering digunakan di lingkungan dengan beban kerja tinggi seperti server dan superkomputer.</li>	
+                      <li><em>Keamanan:</em> Linux memiliki sistem keamanan yang kuat, dengan fitur seperti pemisahan hak akses pengguna, manajemen izin, dan pembaruan keamanan reguler.</li>	
+                      <li><em>Dukungan Hardware:</em> Kernel Linux mendukung berbagai macam perangkat keras, termasuk perangkat komputer desktop, server, laptop, smartphone, dan perangkat embedded.</li>	
+                      <li><em>Komunitas yang Besar:</em> Ada komunitas pengembang yang besar di balik Linux, yang terdiri dari ribuan kontributor yang bekerja sama untuk meningkatkan kernel dan perangkat lunak terkait.</li>
+                    </ol>       
+                    <ol>
+                      <strong>Keutamaan Linux:</strong>
+                      <li><em>Biaya:</em> Linux didistribusikan secara gratis, sehingga tidak ada biaya lisensi yang terkait dengan penggunaannya. Ini membuatnya menjadi pilihan yang sangat ekonomis, terutama untuk perusahaan dan organisasi yang membutuhkan solusi IT yang skalabel.</li>	
+                      <li><em>Fleksibilitas:</em> Karena sifatnya yang open source dan kustomisasi yang tinggi, Linux dapat disesuaikan dengan berbagai kebutuhan. Ini membuatnya cocok untuk berbagai kasus penggunaan, mulai dari penggunaan desktop hingga server, perangkat embedded, dan lainnya.</li>	
+                      <li><em>Keamanan:</em> Dengan kontrol hak akses yang ketat, pembaruan keamanan reguler, dan dukungan dari komunitas yang aktif, Linux sering dianggap sebagai salah satu sistem operasi yang paling aman.</li>
+                      <li><em>Performa:</em> Kernel Linux dirancang untuk memberikan kinerja yang tinggi, terutama di lingkungan server dan komputasi tingkat lanjut.</li>	
+                      <li><em>Dukungan Komunitas:</em> Linux memiliki komunitas pengguna dan pengembang yang besar yang dapat memberikan dukungan dan solusi untuk masalah yang timbul.</li>	
+                      <li><em>Skalabilitas:</em> Linux dapat diimplementasikan di berbagai lingkungan, mulai dari perangkat kecil hingga infrastruktur data center yang besar, memberikan skalabilitas yang tinggi.
+                         Dengan karakteristik dan keutamaannya, Linux telah menjadi salah satu sistem operasi yang paling populer dan diandalkan di dunia, digunakan dalam berbagai lingkungan mulai dari perangkat mobile hingga server perusahaan.</li>	
+                    </ol>         
+                  </p>      
+                </p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card crop-img">
+              <img
+                src="Image/gambar5.webp"
+                class="card-img-top"
+                width="300"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong><u>Sistem Operasi Open Source: Linux dan Distronya</u></strong></h5>
+                <p class="card-text">
+                  <div class="p">
+                    Linux adalah kernel sistem operasi open source yang dikembangkan pertama kali oleh Linus Torvalds pada tahun 1991. Namun, kernel Linux sendiri bukanlah sebuah sistem operasi lengkap; ia hanya bertanggung jawab untuk manajemen sumber daya perangkat keras seperti prosesor, memori, dan perangkat input/output. Sistem operasi Linux lengkap terbentuk saat kernel Linux digabungkan dengan berbagai perangkat lunak lainnya seperti utilitas sistem, perpustakaan, dan lingkungan desktop.
+                    Berbagai distribusi Linux, yang sering disebut sebagai "distro," menyediakan kombinasi berbeda dari kernel Linux, utilitas sistem, manajer paket, dan lingkungan desktop. Setiap distro Linux dapat ditujukan untuk tujuan penggunaan yang berbeda-beda, seperti desktop, server, pemulihan sistem, atau perangkat embedded. Beberapa distro Linux populer termasuk:
+                     <ol>
+                      <li><em>Ubuntu:</em> Salah satu distribusi Linux paling populer yang didasarkan pada Debian. Ubuntu menawarkan lingkungan desktop yang ramah pengguna dan memiliki dukungan jangka panjang (LTS) untuk versi tertentu.</p></li>	
+                      <li><em>Debian:</em> Merupakan salah satu distro Linux tertua yang terus dikembangkan oleh komunitas. Debian dikenal karena stabilitasnya dan memiliki repositori perangkat lunak yang luas.</p></li>	
+                      <li><em>Fedora:</em> Dikembangkan oleh Fedora Project, yang didukung oleh Red Hat. Fedora sering dijadikan sebagai lingkungan pengembangan dan uji coba teknologi terbaru.</p></li>	
+                      <li><em>CentOS:</em> Dikembangkan dari kode sumber Red Hat Enterprise Linux (RHEL) yang diambil secara gratis. CentOS sering digunakan di lingkungan server.</p></li>	
+                      <li><em>Arch Linux:</em> Dikenal karena pendekatannya yang berorientasi pada penggunaan pengguna akhir yang canggih. Arch Linux memungkinkan pengguna untuk menyesuaikan instalasi mereka secara mendalam.</p></li>	
+                      <li><em>Linux Mint:</em> Didasarkan pada Ubuntu dan menyediakan lingkungan desktop yang ramah pengguna dengan tema dan aplikasi tambahan.</p></li>	
+                      <li><em>openSUSE:</em> Merupakan distro yang sangat terintegrasi dan stabil, dengan dukungan bawaan untuk manajemen paket dan konfigurasi sistem</p></li>	
+                    </ol>                                          
+                </p>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+  <!-- About -->
+<div class="container-fluid pt-5 pb-5">
+  <div class="container">
+    <h2 class="display-5 text-center" id="About"><hr><strong>About</strong><hr></h2>
+    <p class="text-center">
+      <strong>ini dibuat untuk memenuhi tugas saya pada mata kuliah Arsitektur dan Organisasi Komputer</strong><strong>ini dibuat untuk memenuhi tugas saya pada mata kuliah Arsitektur dan Organisasi Komputer</strong> 
+    </p>
+    <div class="clearfix pt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          
+        </div>
+      </div>
+      <div class="p">
+        <p>
+          "Situs web ini merupakan hasil dari dedikasi saya dalam menjalani mata kuliah Arsitektur dan Organisasi Komputer. Dalam rangka memenuhi tugas yang diberikan, saya telah berupaya keras untuk menggali pemahaman mendalam tentang prinsip-prinsip fundamental yang mendasari kinerja komputer dan struktur perangkat kerasnya.
+        </p>
+        <p>
+          Melalui penelitian yang cermat dan eksplorasi yang teliti, saya telah merancang dan mengimplementasikan berbagai elemen yang terkait dengan arsitektur komputer dalam situs web ini. Mulai dari pengertian dasar tentang unit-unit pemrosesan dalam CPU hingga pemahaman yang lebih mendalam tentang konsep-konsep seperti pipelining, caching, dan pengelolaan memori, semua informasi tersebut saya susun secara sistematis agar dapat diakses dengan mudah oleh pengguna.
+        </p>
+        <p>
+          Selain itu, melalui proses pembuatan situs web ini, saya juga telah melatih kemampuan saya dalam hal pengembangan web. Mulai dari desain tata letak yang menarik hingga implementasi kode-kode yang efisien, saya berusaha untuk memastikan bahwa situs ini tidak hanya memenuhi persyaratan tugas, tetapi juga memberikan pengalaman yang memuaskan bagi pengguna yang mengunjunginya.
+        </p>
+        <p>
+          Saya berharap situs web ini tidak hanya memberikan manfaat bagi saya dalam menyelesaikan tugas akademik, tetapi juga menjadi sumber belajar yang berguna bagi siapa pun yang tertarik untuk mengeksplorasi lebih jauh tentang Arsitektur dan Organisasi Komputer. Dengan penuh semangat, saya berkomitmen untuk terus mengembangkan dan memperbarui konten situs ini agar tetap relevan dan bermanfaat bagi masa mendatang."
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- tim -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-5" id="Profile"><strong><hr>Profile<hr></strong></h2>
+        <p></p>
+
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-5 text-center tim">
+              <img src="Image/Gambar1.png" class=""/>
+          </div>
+          <div class="col-md-6">
+               <!-- <h3><u>Profile Dika Permana</u></h3>  -->
+              <br><p align="left">
+                  <strong>Nama:</strong> Dika Permana <br>
+                  <strong>Nim:</strong> 23416255201022 <br>
+                  <strong>Status:</strong> Mahasiswa <br>
+                  <strong>Institusi:</strong> Universitas Buana Perjuangan Karawang <br>
+                  <strong>Fakultas:</strong> Ilmu Komputer <br>
+                  <strong>Program Studi:</strong> Teknik Informatika <br>
+              </p>
+              <p align="justify">
+                  Sebagai mahasiswa di Universitas Buana Perjuangan Karawang, saya sedang menempuh pendidikan di bidang ilmu komputer dengan fokus pada program studi Teknik Informatika. Saya terlibat dalam berbagai kegiatan akademik dan ekstrakurikuler, seperti kuliah, seminar, workshop, proyek-proyek riset, dan kegiatan organisasi mahasiswa.
+              </p>
+              <a href="https://www.facebook.com/dika.permana.33633344?mibextid=ZbWKwL" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/akashaa_dk?igsh=MWYwaWxmNHdmZzU0Ng==" class="social"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/+6281317432457" class="social"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://youtube.com/@blcdrg376?si=4VJ6PUQHM4VZ2V9L" class="social"><i class="fab fa-youtube"></i></a>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin"></i></a>
+              <a href="" class="social"><i class="fab fa-line"></i></a> 
+          </div>
+       </div>   
+    </div>
+  </div>
+    
+        <!-- kontak -->
+        <div class="container-fluid pt-5 pb-5 kontak">
+          <div class="container">
+            <h2 class="display-3 text-center" id="kontak">Contact</h2>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, porro.
+            </p>
+            <div class="row pb-3">
+              <div class="col-md-6">
+                <input
+                  class="form-control form-control-lg mb-3"
+                  type="text"
+                  placeholder="Nama"
+                />
+                <input
+                  class="form-control form-control-lg mb-3"
+                  type="text"
+                  placeholder="Email"
+                />
+                <input
+                  class="form-control form-control-lg"
+                  type="text"
+                  placeholder="No. Phone"
+                />
+              </div>
+              <div class="col-md-6">
+                <textarea class="form-control form-control-lg" rows="6"></textarea>
+              </div>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+              <button type="button" class="btn btn-danger btn-lg">
+                Kirim Pesan
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center pt-5 pb-5">
+          Hak Cipta &copy; 2024 Dika Permana 
+        </div>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
